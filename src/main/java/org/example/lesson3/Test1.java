@@ -30,7 +30,8 @@ public class Test1 {
         authorizationPassword.sendKeys("Sport1994");
         WebElement authorizationEnter = driver.findElement(By.xpath(".//input[@value='войти']"));
         authorizationEnter.click();
-        //должен появится локатор //a/span[@title]
+        //new WebDriverWait(driver, 5).until(ExpectedConditions.elementToBeClickable(By.xpath(".//a/span[@title]")));
+
         //добавить выход
 
     }
