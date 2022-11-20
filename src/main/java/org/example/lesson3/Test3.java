@@ -66,7 +66,7 @@ public class Test3 {
         WebElement elementFavorites = (new WebDriverWait(driver, Duration.ofSeconds(10))
                 .until(ExpectedConditions.visibilityOfElementLocated(By.xpath(".//div[@class='page_content'] [@pid='5']")))); //проверка открытия вкладки5
 
-        //driver.close();
+        driver.close();
 
     }
 }
